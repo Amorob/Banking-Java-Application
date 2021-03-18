@@ -1,10 +1,9 @@
 package interfaces;
-import classes.Branch;
 
 public interface IBank {
     boolean addBranch(String branchName);
 
-    boolean addCustomer(String branchName, String customerName, double initialaAmount);
+    boolean addCustomer(String branchName, String customerName, double initialAmount);
 
     boolean addCustomerTransaction(String branchName, String customerName, double amount);
 
