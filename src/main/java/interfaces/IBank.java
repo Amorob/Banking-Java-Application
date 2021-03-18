@@ -1,5 +1,7 @@
 package interfaces;
 
+import classes.Branch;
+
 public interface IBank {
     boolean addBranch(String branchName);
 

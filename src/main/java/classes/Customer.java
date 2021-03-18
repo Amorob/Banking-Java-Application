@@ -11,7 +11,7 @@ public class Customer implements ICustomer {
     public Customer(String name, double initialTransaction) {
         this.name = name;
         this.transactions = new ArrayList<Double>();
-
+        transactions.add(initialTransaction);
     }
 
     @Override
